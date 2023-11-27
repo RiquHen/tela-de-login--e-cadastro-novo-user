@@ -1,11 +1,11 @@
-#### Login ####
+#### Login ####   Python/Flet
 
 único usuário e senha cadastrado(primeiro acesso)
-usuario: admin
-senha:admin
 
-- Apresenta uma tela de login(usuario e senha),
-com os botões de realizar o login ou sair da aplicação
+usuario: admin  - senha:admin
+
+- Apresenta uma tela de login(usuario e senha),com os botões de realizar o login ou sair da aplicação
+
 - Banco de dados - pasta banco_dados o arquivo  db_cad.bd, salva o novo usuario e sua senha
 
 Caso o usuario inserido nao esteja salvo no banco de dados(banco_dados/db.cad.db),
