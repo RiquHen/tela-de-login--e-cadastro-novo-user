@@ -69,7 +69,7 @@ def main(page:Page):
     
     # Usuário e senha usados na tela de login 
     user = TextField(label='Usuário',icon=icons.SUPERVISED_USER_CIRCLE, width=300,height=35)
-    senha = TextField(label='Senha', height=35, width=300, icon=icons.LOCK)
+    senha = TextField(label='Senha',password=True, height=35, width=300, icon=icons.LOCK)
     
     def logar(e):
         busca(user.value,senha.value)
@@ -77,7 +77,7 @@ def main(page:Page):
     
     #usuário e senha usados no cadastro de novo usuário
     novo_usuario = TextField(label='Novo Usuário')
-    nova_senha = TextField(label='Nova Senha')
+    nova_senha = TextField(label='Nova Senha', password=True)
     def novo_cadastro(e):
         cadastro.visible=True
         cadastro.update()
